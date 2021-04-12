@@ -6,8 +6,9 @@ console.log("1b) ", 3 === "3");
 // In the second operation which is a strict comparison the variables are not converted since the triple equal (===) sign makes sure there is strict compliance.
 //2 Not
 let virtue = true;
-let confirmation = "false";
-console.log("2 ", confirmation == virtue);
+let reality = "Unknown";
+let confirmation = (virtue = reality ? false : true);
+console.log("2) ", confirmation);
 
 //3. Short Circuit
 
